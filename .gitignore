@@ -1,0 +1,84 @@
+# ===== Unreal Engine .gitignore =====
+# Common build artifacts and generated files that should not be tracked.
+
+# Visual Studio / Xcode user-specific files
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.*
+*.pidb
+*.userprefs
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# ===== Unreal Engine generated folders =====
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+BuildArtifacts/
+Plugins/*/Binaries/
+
+# Debug files
+*.dSYM/
+*.su
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== CMake (if used) =====
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
