@@ -71,6 +71,9 @@ Plugins/*/Binaries/
 .AppleDouble
 .LSOverride
 
+# Screen recordings / local videos
+*.mov
+
 # ===== CMake (if used) =====
 CMakeLists.txt
 CMakeCache.txt
